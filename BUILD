@@ -7,7 +7,7 @@ licenses(["notice"])
 exports_files(["src/gflags_completions.sh", "COPYING.txt"])
 
 config_setting(
-    name = "x64_windows",
+    name = "windows",
     values = {"cpu": "x64_windows"},
 )
 
